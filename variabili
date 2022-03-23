@@ -4,3 +4,4 @@ ReplicaSet: 3
 Container_Registry_Base: unitn.icts
 livenessProbePath: /HCTEST
 startupProbePath: /HCstartupProbe
+volumes: [[mouthPath: '/mounthPath1',name:'mount1'],[mouthPath: '/mounthPath2',name:'mount2']]
