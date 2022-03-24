@@ -6,6 +6,7 @@ livenessProbePath: /HCTEST
 startupProbePath: /HCstartupProbe
 volumes: [[mounthPath: '/mounthPath1', name: 'mount1'],[mounthPath: '/mounthPath2', name: 'mount2']]
 volumes1: [mounthPath: '/mounthPath1',name:'mount1',mounthPath: '/mounthPath2',name:'mount2']
+volumes2: [[100,200,300,400],[1,2,3,4],[99999]]
 volu:
   - name: nome1 
     path: path1
