@@ -16,5 +16,5 @@ volumes2: [[details: [mounthPath: "/mounthPath1", name: "mount1"],details: [moun
            
 volumes1: [mounthPath: '/mounthPath1',name:'mount1',mounthPath: '/mounthPath2',name:'mount2']
 
-volumes: mountsDetails:[[mount: https://github.com/kiek/nanny-test3/pull/17, organization:kiek, repository:nanny-test3, pr_number:17],[mount: https://github.com/kiek/nanny-test3/pull/18, organization:kiek, repository:nanny-test3, pr_number:18]]
+volumes: mountsDetails:[[mount: "https://github.com/kiek/nanny-test3/pull/17", organization:"kiek", repository:"nanny-test3", pr_number:"17"],[mount: "https://github.com/kiek/nanny-test3/pull/18", organization:"kiek", repository:"nanny-test3", pr_number:"18"]]
 
