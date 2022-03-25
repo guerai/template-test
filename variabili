@@ -15,6 +15,7 @@ prDetails:[[prInfo:[pull_request:https://github.com/kiek/nanny-test3/pull/17, or
 volumes2: [[details: [mounthPath: "/mounthPath1", name: "mount1"],details: [mounthPath: "/mounthPath2", name: "mount2"]]]
            
 volumes1: [mounthPath: '/mounthPath1',name:'mount1',mounthPath: '/mounthPath2',name:'mount2']
+volumes3: mountsDetails:[[mount: "https://github.com/kiek/nanny-test3/pull/17", organization:"kiek", repository:"nanny-test3", pr_number:"17"],[mount: "https://github.com/kiek/nanny-test3/pull/18", organization:"kiek", repository:"nanny-test3", pr_number:"18"]]
 
-volumes: mountsDetails:[[mount: "https://github.com/kiek/nanny-test3/pull/17", organization:"kiek", repository:"nanny-test3", pr_number:"17"],[mount: "https://github.com/kiek/nanny-test3/pull/18", organization:"kiek", repository:"nanny-test3", pr_number:"18"]]
+volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"PrimoMount", opt1:"nanny-test3", opt2:"17"],[mountPath: "/mnt/SecondoPath", mountName:"SecondoMount", opt1:"nanny-test3", opt2:"17"]]
 
