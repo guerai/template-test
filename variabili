@@ -12,7 +12,7 @@ prDetails:[[prInfo:[pull_request:https://github.com/kiek/nanny-test3/pull/17, or
            [prInfo:[pull_request:https://github.com/kiek/nanny-test3/pull/18, organization:kiek, repository:nanny-test3, pr_number:18], authors:[kis@dmc.com,crc@dmc.com]]
   ],
   ]
-volumes: volumi:[[details: [mounthPath: "/mounthPath1", name: "mount1"]],[details: [mounthPath: "/mounthPath2", name: "mount2"]]]]
+volumes: volumi:[details: [mounthPath: "/mounthPath1", name: "mount1"],details: [mounthPath: "/mounthPath2", name: "mount2"]]]
            
 volumes1: [mounthPath: '/mounthPath1',name:'mount1',mounthPath: '/mounthPath2',name:'mount2']
 volumes2: [[100,200,300,400],[1,2,3,4],[99999]]
